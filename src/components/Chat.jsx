@@ -12,6 +12,11 @@ const ChatContainer = styled.div`
   border-radius: 10px;
   box-shadow: 0 0 20px rgba(255, 0, 0, 0.2);
   backdrop-filter: blur(5px);
+
+  @media (max-width: 768px) {
+    max-width: 100%;
+    padding: 10px;
+  }
 `;
 
 const Header = styled.header`
